@@ -17,6 +17,9 @@
     "dev:all": "npm run install:all && npm run dev",
     "start:all": "npm run install:all && npm run start"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "devDependencies": {
     "concurrently": "^9.0.1"
   }
